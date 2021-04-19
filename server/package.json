@@ -1,0 +1,37 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Chatbot server with node.js",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andymyp/chatbot-mern.git"
+  },
+  "keywords": [
+    "Chat",
+    "bot",
+    "with",
+    "MongoDB",
+    "Express",
+    "React",
+    "and",
+    "Node.js"
+  ],
+  "author": "M. Yudistiandy Prabowo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andymyp/chatbot-mern/issues"
+  },
+  "homepage": "https://github.com/andymyp/chatbot-mern#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.4",
+    "nodemon": "^2.0.7"
+  }
+}
